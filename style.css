@@ -25,12 +25,10 @@ header p{
     max-width: 900px;
     margin: 30px auto;
     background-color: #f2a154;
+    color: black;
 }
 
 .container label{
     font-size: 1.6rem;
-}
-
-.container input{
     display: block;
 }

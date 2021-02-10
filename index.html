@@ -10,14 +10,48 @@
 <body>
     <header>
         <h1 id="title">Survey Kesayangan & Oshi</h1>
-        <p id="description">Survey untuk melihat member yang banyak di perhatikan oleh fans di jkt48</p>
+        <p id="description">Survey untuk melihat member yang banyak di perhatikan oleh fans di jkt48
+            pastikan umur anda minimal 15 tahun untuk mengisi form ini
+        </p>
     </header>
     <div class="container">
         <form action="#" id="survey-form">
-            <label for="name">Nama</label>
-            <input type="text" id="name" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
+            <label for="name" id="name-label">Nama</label>
+            <input type="text" id="name" required placeholder="Nama lengkap">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" id="email" required placeholder="Email">
+            <label for="number" id="number-label">Umur</label>
+            <input type="number" min="15" max="99" id="number" placeholder="Umur">
+            <label for="Oshi">Pilih 1 Member Favourite Kalian:</label>
+            <select name="Oshi" id="dropdown">
+                <option value="" disabled selected>Choose an option</option>
+                <option value="Lisa">Adriani Elisabeth</option>
+                <option value="Afiqah">Amanina Afiqah</option>
+                <option value="Anin">Aninditha Rahma Cahyadi</option>
+                <option value="Ariela">Ariella Calista Ichwan</option>
+                <option value="Azizi">Azizi Asadel</option>
+                <option value="Cinhap">Cindy Hapsari Maharani Pujiantoro Putri</option>
+                <option value="Diani">Diani Amalia Ramadhani</option>
+                <option value="Eve">Eve Antoinette Ichwan</option>
+                <option value="Feni">Feni Fitriyanti</option>
+                <option value="Sisca">Fransisca Saraswati Puspa Dewi</option>
+                <option value="Frieska">Frieska Anastasia Laksani</option>
+                <option value="Brielle">Gabriel Angelina</option>
+                <option value="Gaby">Gabriela Margareth Warouw</option>
+                <option value="Lala">Nabila Fitriana</option>
+                <option value="Amel">Riska Amelia Putri</option>
+                <option value="Rona">Rona Anggreani</option>
+                <option value="Julie">Sania Julia Montolalu</option>
+                <option value="Tasya">Anastasya Narwastu Tety Handuran</option>
+                <option value="Christy">Angelina Christy</option>
+                <option value="Beby">Beby Chaesara Anadila</option>
+                <option value="Fia">Fidly Immanda Azzahra</option>
+                <option value="Gita">Gita Sekar Andarini</option>
+                <option value="Eli">Helisma Putri</option>
+                <option value="Jinan">Jinan Safa Safira</option>
+                <option value="Indy">Kandiya Rafa Maulidita</option>
+                <option value="Muthe">Mutiara Azzahra</option>
+            </select>
         </form>
     </div>
 </body>
