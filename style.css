@@ -32,3 +32,14 @@ header p{
     font-size: 1.6rem;
     display: block;
 }
+
+.Judul-radio{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.team-favorit{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
