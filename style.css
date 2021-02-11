@@ -26,16 +26,45 @@ header p{
     margin: 30px auto;
     background-color: #f2a154;
     color: black;
+    border-radius: 0.5rem;
+    padding: 2rem 0 0 0;
 }
 
 .container label{
     font-size: 1.6rem;
-    display: block;
+}
+
+.container .form-label p{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.nama{
+    margin-top: 20px;
+}
+
+.tulisan{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+
+.pilihan {
+    text-align: center;
+}
+
+.form-control {
+    width: 90%;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
 }
 
 .Judul-radio{
     font-size: 1.8rem;
     text-align: center;
+    margin-top: 60px;
 }
 
 .team-favorit{
@@ -59,6 +88,10 @@ header p{
 
 .team{
     text-align: center;
+}
+
+.judul-setlist {
+    margin-top: 70px;
 }
 
 .container .setlist-favorit label {
@@ -87,9 +120,31 @@ header p{
     margin-top: 50px;
     color: #eee;
     background-color: #822659;
+    border-radius: 0.5rem;
 }
 
 .footer h3{
     font-size: 1.8rem;
     margin: auto;
 }
+
+.harapan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.harapan textarea {
+    width: 99.5%;
+    resize: vertical;
+}
+
+#submit {
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 1rem;
+    background-color: slateblue;
+    color: #eee;
+}
+
+#submit

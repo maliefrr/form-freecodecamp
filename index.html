@@ -15,96 +15,104 @@
         </p>
     </header>
     <div class="container">
-        <form action="#" id="survey-form">
-            <label for="name" id="name-label">Nama</label>
-            <input type="text" id="name" required placeholder="Nama lengkap">
-            <label for="email" id="email-label">Email</label>
-            <input type="email" id="email" required placeholder="Email">
-            <label for="number" id="number-label">Umur</label>
-            <input type="number" min="15" max="99" id="number" placeholder="Umur">
-            <label for="Oshi">Pilih 1 Member Favourite Kalian:</label>
-            <select name="Oshi" id="dropdown">
-                <option value="" disabled selected>Choose an option</option>
-                <option value="Lisa">Adriani Elisabeth</option>
-                <option value="Afiqah">Amanina Afiqah</option>
-                <option value="Anin">Aninditha Rahma Cahyadi</option>
-                <option value="Ariela">Ariella Calista Ichwan</option>
-                <option value="Azizi">Azizi Asadel</option>
-                <option value="Cinhap">Cindy Hapsari Maharani Pujiantoro Putri</option>
-                <option value="Diani">Diani Amalia Ramadhani</option>
-                <option value="Eve">Eve Antoinette Ichwan</option>
-                <option value="Feni">Feni Fitriyanti</option>
-                <option value="Sisca">Fransisca Saraswati Puspa Dewi</option>
-                <option value="Frieska">Frieska Anastasia Laksani</option>
-                <option value="Brielle">Gabriel Angelina</option>
-                <option value="Gaby">Gabriela Margareth Warouw</option>
-                <option value="Lala">Nabila Fitriana</option>
-                <option value="Amel">Riska Amelia Putri</option>
-                <option value="Rona">Rona Anggreani</option>
-                <option value="Julie">Sania Julia Montolalu</option>
-                <option value="Tasya">Anastasya Narwastu Tety Handuran</option>
-                <option value="Christy">Angelina Christy</option>
-                <option value="Beby">Beby Chaesara Anadila</option>
-                <option value="Fia">Fidly Immanda Azzahra</option>
-                <option value="Gita">Gita Sekar Andarini</option>
-                <option value="Eli">Helisma Putri</option>
-                <option value="Jinan">Jinan Safa Safira</option>
-                <option value="Indy">Kandiya Rafa Maulidita</option>
-                <option value="Muthe">Mutiara Azzahra</option>
-                <option value="Aya">Nurhayati</option>
-                <option value="Nanda">Rinanda Syahputri</option>
-                <option value="Sahni">Shani Indira Natio</option>
-                <option value="Gracia">Shania Gracia</option>
-                <option value="Chika">Yessica Tamara</option>
-                <option value="Ara">Zahra Nur</option>
-                <option value="Mira">Amirah Fatin</option>
-                <option value="Yori">Aurel Mayori</option>
-                <option value="Oniel">Cornelia Vanisa</option>
-                <option value="Dey">Dhea Angelia</option>
-                <option value="Olla">Febriola Sinambela</option>
-                <option value="Fiony">Fiony Alveria</option>
-                <option value="Flora">Flora Shafiq</option>
-                <option value="Freya">Freya Jayawardana</option>
-                <option value="Jessi">Jessica Chandra</option>
-                <option value="Jesslyn">Jesslyn Callista</option>
-                <option value="Lulu">Lulu Salsabila</option>
-                <option value="Adel">Reva Fidela</option>
-                <option value="Celine">Tan Zhi Hui Celine</option>
-                <option value="Ume">Umega Maulana</option>
-                <option value="Vivi">Viona Fadrin</option>
-                <option value="Ashel">Adzana Shaliha</option>
-                <option value="Caithlyn">Caithlyn Gwyneth</option>
-                <option value="Chalista">Chalista Ellysia</option>
-                <option value="Abel">Christabel Jocelyn</option>
-                <option value="Nunu">Cindy Nugroho</option>
-                <option value="Febi">Febi Komaril</option>
-                <option value="Bri">Febrina Diponegoro</option>
-                <option value="Vany">Gabriella Stevany</option>
-                <option value="Indah">Indah Cahya Salsabila</option>
-                <option value="Kathrina">Kathrina Irene</option>
-                <option value="Keisya">Keisya Ramadhani</option>
-                <option value="Marsha">Marsha Lenathea</option>
-                <option value="Nabila">Nabila Gusmarlia</option>
-                <option value="Zahra">Putri Elzahra</option>
-                <option value="Shinta">Shinta Devi</option>
-            </select>
+        <form action="" id="survey-form">
+            <div class="nama tulisan">
+                <label for="name" id="name-label" class="form-label"><p>Nama</p></label>
+                <input type="text" id="name" required placeholder="Nama lengkap" class="form-control">
+            </div>
+            <div class="email tulisan">
+                <label for="email" id="email-label" class="form-label"><p>Email</p></label>
+                <input type="email" id="email" required placeholder="Email" class="form-control">
+            </div>
+            <div class="umur tulisan">
+                <label for="number" id="number-label" class="form-label"><p>Umur</p></label>
+                <input type="number" min="15" max="99" id="number" placeholder="Umur" class="form-control">
+            </div>
+            <div class="pilihan ">
+                <label for="Oshi" class="form-label"><p>Pilih 1 Member Favourite Kalian:</p></label>
+                <select name="Oshi" id="dropdown" class="form-control">
+                    <option value="" disabled selected>Choose an option</option>
+                    <option value="Lisa">Adriani Elisabeth</option>
+                    <option value="Afiqah">Amanina Afiqah</option>
+                    <option value="Anin">Aninditha Rahma Cahyadi</option>
+                    <option value="Ariela">Ariella Calista Ichwan</option>
+                    <option value="Azizi">Azizi Asadel</option>
+                    <option value="Cinhap">Cindy Hapsari Maharani Pujiantoro Putri</option>
+                    <option value="Diani">Diani Amalia Ramadhani</option>
+                    <option value="Eve">Eve Antoinette Ichwan</option>
+                    <option value="Feni">Feni Fitriyanti</option>
+                    <option value="Sisca">Fransisca Saraswati Puspa Dewi</option>
+                    <option value="Frieska">Frieska Anastasia Laksani</option>
+                    <option value="Brielle">Gabriel Angelina</option>
+                    <option value="Gaby">Gabriela Margareth Warouw</option>
+                    <option value="Lala">Nabila Fitriana</option>
+                    <option value="Amel">Riska Amelia Putri</option>
+                    <option value="Rona">Rona Anggreani</option>
+                    <option value="Julie">Sania Julia Montolalu</option>
+                    <option value="Tasya">Anastasya Narwastu Tety Handuran</option>
+                    <option value="Christy">Angelina Christy</option>
+                    <option value="Beby">Beby Chaesara Anadila</option>
+                    <option value="Fia">Fidly Immanda Azzahra</option>
+                    <option value="Gita">Gita Sekar Andarini</option>
+                    <option value="Eli">Helisma Putri</option>
+                    <option value="Jinan">Jinan Safa Safira</option>
+                    <option value="Indy">Kandiya Rafa Maulidita</option>
+                    <option value="Muthe">Mutiara Azzahra</option>
+                    <option value="Aya">Nurhayati</option>
+                    <option value="Nanda">Rinanda Syahputri</option>
+                    <option value="Sahni">Shani Indira Natio</option>
+                    <option value="Gracia">Shania Gracia</option>
+                    <option value="Chika">Yessica Tamara</option>
+                    <option value="Ara">Zahra Nur</option>
+                    <option value="Mira">Amirah Fatin</option>
+                    <option value="Yori">Aurel Mayori</option>
+                    <option value="Oniel">Cornelia Vanisa</option>
+                    <option value="Dey">Dhea Angelia</option>
+                    <option value="Olla">Febriola Sinambela</option>
+                    <option value="Fiony">Fiony Alveria</option>
+                    <option value="Flora">Flora Shafiq</option>
+                    <option value="Freya">Freya Jayawardana</option>
+                    <option value="Jessi">Jessica Chandra</option>
+                    <option value="Jesslyn">Jesslyn Callista</option>
+                    <option value="Lulu">Lulu Salsabila</option>
+                    <option value="Adel">Reva Fidela</option>
+                    <option value="Celine">Tan Zhi Hui Celine</option>
+                    <option value="Ume">Umega Maulana</option>
+                    <option value="Vivi">Viona Fadrin</option>
+                    <option value="Ashel">Adzana Shaliha</option>
+                    <option value="Caithlyn">Caithlyn Gwyneth</option>
+                    <option value="Chalista">Chalista Ellysia</option>
+                    <option value="Abel">Christabel Jocelyn</option>
+                    <option value="Nunu">Cindy Nugroho</option>
+                    <option value="Febi">Febi Komaril</option>
+                    <option value="Bri">Febrina Diponegoro</option>
+                    <option value="Vany">Gabriella Stevany</option>
+                    <option value="Indah">Indah Cahya Salsabila</option>
+                    <option value="Kathrina">Kathrina Irene</option>
+                    <option value="Keisya">Keisya Ramadhani</option>
+                    <option value="Marsha">Marsha Lenathea</option>
+                    <option value="Nabila">Nabila Gusmarlia</option>
+                    <option value="Zahra">Putri Elzahra</option>
+                    <option value="Shinta">Shinta Devi</option>
+                </select>
+            </div>
             <h3 class="Judul-radio">Pilih Team Favorit:</h3>
             <div class="team-favorit">
                 <div class="TeamJ">
                     <label for="">Team J</label>
-                    <input type="radio" name="Team">
+                    <input type="radio" name="Team" value="TeamJ">
                 </div>
                 <div class="TeamKIII">
                     <label for="">Team KIII</label>
-                    <input type="radio" name="Team">
+                    <input type="radio" name="Team" value="TeamKIII">
                 </div>
                 <div class="TeamT">
                     <label for="">Team T</label>
-                    <input type="radio" name="Team">
+                    <input type="radio" name="Team" value="TeamT">
                 </div>
                 <div class="academy">
                     <label for="">Academy Kelas A</label>
-                    <input type="radio" name="Team">
+                    <input type="radio" name="Team" value="Academy">
                 </div>
             </div>
             <h1 class="judul-setlist">Pilih Setlist Team Favorit:</h1>
@@ -177,9 +185,9 @@
             </div>
             <div class="harapan">
                 <h2>Harapan untuk JKT48:</h2>
-                <textarea name="komentar" id="" cols="90" rows="10"></textarea>
+                <textarea name="komentar" id="" cols="90" rows="10" placeholder="Tulis Harapan Kalian Untuk JKT48"></textarea>
+                <input type="submit" name="" id="submit">
             </div>
-            <input type="submit" name="" id="submit">
         </form>
         <div class="footer">
             <h3>&copy; Copyright 2021</h3>
