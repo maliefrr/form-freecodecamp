@@ -79,3 +79,17 @@ header p{
 .container .setlist-favorit .setlist span label{
     margin-right: 20px;
 }
+
+.footer{
+    display: flex;
+    padding: 20px;
+    height: 50px;
+    margin-top: 50px;
+    color: #eee;
+    background-color: #822659;
+}
+
+.footer h3{
+    font-size: 1.8rem;
+    margin: auto;
+}
