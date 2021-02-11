@@ -5,8 +5,9 @@ html {
 }
 
 body{
-    background-color: #314e52;
-    color: #e7e6e1;
+    background-color: black;
+   background-image: url(black_mamba.png);
+    color: rgb(240, 239, 239);
 }
 
 header{
