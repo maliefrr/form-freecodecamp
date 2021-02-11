@@ -43,3 +43,39 @@ header p{
     justify-content: space-around;
     text-align: center;
 }
+
+.judul-setlist{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.setlist-favorit{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.team{
+    text-align: center;
+}
+
+.container .setlist-favorit label {
+    display: inline;
+}
+
+.container .setlist-favorit .setlist{
+    display: flex;
+   flex-direction: column;
+}
+
+.container .setlist-favorit .setlist span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .setlist-favorit .setlist span label{
+    margin-right: 20px;
+}
